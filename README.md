@@ -1,6 +1,6 @@
 # PyOpenCL-MatMul
 
-This is an OpenCL Matrix Multiplication (GEMM) implementation using PyOpenCL. 
+This is an OpenCL Matrix Multiplication (GEMM) implementation using PyOpenCL. The code was written and designed specifically for use on FPGAs, but will run on any CPU, GPU, and FPGA that supports OpenCL. The accompanying notebook output is from running on a Macbook Pro. Performances can be greatly accelerated with the use of GPUs and FPGAs.
 
 The GEMM cases all perform the following operation:
 C = A B
@@ -15,6 +15,3 @@ There are several implementations of GEMM:
 5. GEMM_2DREG_IMITATE_PADDING: NDRange Kernel with Local Memory and 2D Register Tiling where M, N, P are arbitrarily sized
 -- this case computes the GEMM case imitates padding, i.e. as if it were padded, but no explicit padding is necessary. 
     This dramatically makes GEMM faster and allows for arbitrarily sized matrices.
-    
-    
-Note: The notebook was run on a Macbook Pro, but will run on any CPU, GPU, and FPGA that supports OpenCL. Performances can be greatly accelerated with the use of GPUs and FPGAs.
