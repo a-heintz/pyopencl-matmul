@@ -17,4 +17,4 @@ There are several implementations of GEMM:
     This dramatically makes GEMM faster and allows for arbitrarily sized matrices.
     
     
-Note: The notebook was run on a Macbook Pro, but will run on any CPU, GPU, and FPGA that supports OpenCL.
+Note: The notebook was run on a Macbook Pro, but will run on any CPU, GPU, and FPGA that supports OpenCL. Performances can be greatly accelerated with the use of GPUs and FPGAs.
