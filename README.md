@@ -15,3 +15,6 @@ There are several implementations of GEMM:
 5. GEMM_2DREG_IMITATE_PADDING: NDRange Kernel with Local Memory and 2D Register Tiling where M, N, P are arbitrarily sized
 -- this case computes the GEMM case imitates padding, i.e. as if it were padded, but no explicit padding is necessary. 
     This dramatically makes GEMM faster and allows for arbitrarily sized matrices.
+    
+    
+Note: The notebook was run on a Macbook Pro, but will run on any CPU, GPU, and FPGA that supports OpenCL.
