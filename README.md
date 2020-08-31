@@ -1,4 +1,4 @@
-# PyOpenCL-MatMul
+# PyOpenCL-MatMul-GEMM
 
 This is an OpenCL Matrix Multiplication (GEMM) implementation using PyOpenCL. The code was written and designed specifically for use on FPGAs, but will run on any CPU, GPU, and FPGA that supports OpenCL. The accompanying notebook output is from running on a Macbook Pro. Performances can be greatly accelerated with the use of GPUs and FPGAs.
 
